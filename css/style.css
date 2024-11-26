@@ -1,0 +1,115 @@
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.maior{
+    display: flex;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5vw 8vw 1.5vw 8vw;
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    margin-left: 2vw;
+}
+header ul li a{
+    color: black;
+}
+header ul li a.azul{
+    color: #1090CB;
+}
+button{
+    background-color: #1090CB;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    border-radius: 5px;
+    margin-top: -0.5vw;
+}
+header ul li button a{
+    color: white;
+}
+
+/* ====================== */
+section.principal{
+    background-color: rgba(16, 144, 203, 0.1);
+}
+section.principal .maior{
+    display: flex;
+    margin: 1.5vw 12vw 1.5vw 12vw;
+}
+section.principal .maior h1{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10vw 5vw 2vw 0;
+}
+section.principal .maior h1 span{
+    color: #1090CB;
+}
+section.principal .maior p{
+    color: #5C5C5C;
+    font-size: 1.3rem;
+    margin: 0vw 8vw 2vw 0;
+}
+section.principal .maior button a{
+    color: white;
+}
+section.principal .maior button.dois{
+    background-color: white;
+    border: 2px #1090CB solid;
+    margin-left: 1vw;
+}
+section.principal .maior button.dois a{
+    color: #1090CB;
+}
+/* ====================== */
+section.segunda{
+    margin: 2vw 12vw 2vw 7vw;
+}
+section.segunda .maior{
+    display: flex;
+}
+section.segunda .maior .divdois{
+    display: flex;
+}
+section.segunda .maior img{
+    margin-left: 5vw;
+    margin-right: 1vw;
+    background-color: #EFEAFF;
+    padding: 0.5vw;
+    border-radius: 15px;
+}
+section.segunda .maior img.verde{
+    background-color: #ECFFDA;
+}
+section.segunda .maior img.azul{
+    background-color: #DAE6FF;
+}
+section.segunda .maior img.laranja{
+    background-color: #FFE5DA;
+}
+section.segunda p span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+section.segunda p {
+    font-size: 1.2rem;
+}
+/* ======================== */
+section.terceira{
+    margin: 5vw 0 0 0;
+    text-align: center;
+}
+section.terceira h2{
+    font-size: 2rem;
+    margin-bottom: 1vw;
+}
+section.terceira p{
+    font-size: 1.3rem;
+    color: #5C5C5C;
+}
+section.terceira .maior{
+    margin: 2vw 12vw 2vw 12vw;
+
+}
