@@ -43,6 +43,7 @@ section.principal .maior h1{
     font-size: 3rem;
     font-weight: bold;
     margin: 10vw 5vw 2vw 0;
+    line-height: 3.3vw;
 }
 section.principal .maior h1 span{
     color: #1090CB;
@@ -51,6 +52,10 @@ section.principal .maior p{
     color: #5C5C5C;
     font-size: 1.3rem;
     margin: 0vw 8vw 2vw 0;
+    line-height: 1.8vw;
+}
+section.principal .maior button{
+    font-size: 1.2rem;
 }
 section.principal .maior button a{
     color: white;
@@ -65,10 +70,11 @@ section.principal .maior button.dois a{
 }
 /* ====================== */
 section.segunda{
-    margin: 2vw 12vw 2vw 7vw;
+    border-bottom: 1px #D2D2D2 solid;
 }
 section.segunda .maior{
     display: flex;
+    margin: 2vw 12vw 2vw 7vw;
 }
 section.segunda .maior .divdois{
     display: flex;
@@ -102,7 +108,7 @@ section.terceira{
     text-align: center;
 }
 section.terceira h2{
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 1vw;
 }
 section.terceira p{
@@ -110,6 +116,132 @@ section.terceira p{
     color: #5C5C5C;
 }
 section.terceira .maior{
-    margin: 2vw 12vw 2vw 12vw;
+    margin: 5vw 12vw 2vw 12vw;
+}
+section.terceira .maior h3{
+    font-size: 2.5rem;
+    text-align: left;
+    margin-top: 10vw;
+    margin-bottom: 2vw;
+    line-height: 3vw;
+}
+section.terceira .maior h3 span{
+    color: #1090CB;
+}
+section.terceira .maior p{
+    text-align: justify;
+    font-size: 1.5rem;
+    color: #545454;
+}
+section.terceira .maior .Um img{
+    margin-left: 3vw;
+}
+section.terceira .maior .Dois img{
+    margin-right: 3vw;
+}
+section.terceira .maior .Dois {
+    margin-right: 3vw;
+}
 
+/* ========================= */
+section.quarta .maior{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5vw 10vw 5vw 10vw;
+}
+section.quarta .maior div{
+    background-color: #F4F4F4;
+    padding: 4vw 0vw 4vw 0vw;
+    border-radius: 20px;
+    color: #545454;
+}
+section.quarta .maior div h3{
+    color: black;
+    font-size: 2rem;
+    line-height: 2.3vw;
+    margin-bottom: 2vw;
+}
+section.quarta .maior .segunda{
+    color: white;
+    background-color: #1090CB;
+    margin-left: 2vw;
+}
+section.quarta .maior .segunda h3{
+    color: white;
+}
+section.quarta .maior div p{
+    margin: 0 4vw 2vw 4vw;
+    font-size: 1.3vw;
+}
+section.quarta .maior button{
+    font-size: 1.2rem;
+}
+section.quarta .maior button a{
+    color: white;
+}
+section.quarta .maior .segunda button{
+    background-color: white;
+}
+section.quarta .maior .segunda button a{
+    color: #1090CB;
+}
+/* ================================ */
+section.quinta{
+    background-color: #E8F4FA;
+    text-align: center;
+    padding: 2vw 0 5vw 0;
+}
+section.quinta h2{
+    font-size: 2.2rem;
+}
+section.quinta form{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+}
+section.quinta form input#email{
+    padding: 1vw 10vw 1vw 2vw;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 1.3rem;
+}
+section.quinta form input#enviar{
+    margin-left: 2vw;
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+}
+/* ============================== */
+footer .maior{
+    display: flex;
+    justify-content: space-between;
+    margin: 5vw 0vw 2vw 0vw;
+    border-bottom: 1px #D2D2D2 solid;
+    padding-bottom: 1vw;
+}
+footer p span{
+    color: #00329B;
+    font-weight: bold;
+}
+footer p{
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    color: #515151;
+    margin-left: 5vw;
+}
+footer .about{
+    font-weight: bold;
+    color: black;
+    margin-right: 5vw;
+}
+footer a{
+    color: #515151;
+    margin-left: 5vw;
+}
+footer .copy{
+    text-align: center;
 }
